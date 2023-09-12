@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'GmarketSansMedium';
+}
+
+#logo1 {
+    width: 80px;
+    height: 50px;
+    /* float: left; */
+}
+
+#logo2 {
+    width: 140px;
+    height: 30px;
+}
+
+.logo {
+    background-color: #fff;
+    width: 300px;
+    /* height: 100px; */
+    /* display: flex; */
+    position: top left;
+    float: center;
+
+}
+
+header {
+    background-color: #FFF;
+    /* 헤더 배경색 설정 */
+    color: #fff;
+    /* 헤더 텍스트 색상 설정 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    /* 헤더 안쪽 여백 설정 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+    /* 메뉴 항목 간격 설정 */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    /* 마지막 메뉴 항목의 간격 제거 */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+    /* 메뉴 항목 텍스트 색상 설정 */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: purple;
+    /* 메뉴 항목 텍스트 색상 설정 */
+}
+
+hr {
+    background-color: purple;
+    height: 1px;
+    border: 0;
+}
+
+.search {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto; /* 가로 가운데 정렬을 위해 margin을 사용합니다. */
+    text-align: center; /* 내부 요소를 가로로 가운데 정렬합니다. */
+    padding-top: 50px;
+}
+
+.search input {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid purple;
+}
+
+.search button {
+    font-size: 18px;
+    border: none;
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+td{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.title{
+    font-size: small;
+    padding-top: 0%;
+    vertical-align: top;
+    height: 50px;
+}
+
+
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+#top{
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+#top > img{
+    width: 32px;
+    height: 36px;
+}
+
+p{
+    text-align: center;
+}
